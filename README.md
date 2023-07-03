@@ -20,9 +20,3 @@ Example 3:
 Input: n = 4
 Output: 3
 Explanation: F(4) = F(3) + F(2) = 2 + 1 = 3.
-
-# Design rest API 
-* Rest API should return correct result for fib GET request /fib/{n} 
-    * {n} should be numeric type input
-    * endpoint should return 400 BAD_REQUEST for negative number input 
-    * endpoint should return 400 BAD_REQUEST for not numeric input
